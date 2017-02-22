@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1487726850070
+Build-Jdk: 1.8.0_121
+Built-By: iluvatar
+Bundle-Activator: ru.yudin.practice.newsstat.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: news-stat
+Bundle-SymbolicName: news-stat
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: ru.yudin.practice.newsstat.able;version="1.0.0",ru.yudin
+ .practice.newsstat;version="1.0.0";uses:="org.osgi.framework"
+Import-Package: javax.xml.parsers,org.osgi.framework;version="[1.5,2)",o
+ rg.w3c.dom,ru.yudin.practice.newsstat.able;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
